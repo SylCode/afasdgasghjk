@@ -1,0 +1,346 @@
+#PARSE_ESCAPES
+itemGroup.EnergyAdditions=EnergyAdditions Items
+itemGroup.EnergyAdditionsCreative=EnergyAdditions Legendary
+
+key.GuiWC.gui1=OpenEnergyInventory
+
+tile.EnergyCharger.name=Energy Charger
+
+item.EnergyArmorHelmet.name=Energy Helmet
+item.EnergyArmorChestPlate.name=Energy ChestPlate
+item.EnergyArmorLeggings.name=Energy Leggings
+item.EnergyArmorBoots.name=Energy Boots
+
+item.ModArmorHelmet.name=Advanced Energy Helmet
+item.ModArmorChestPlate.name=Advanced Energy ChestPlate
+item.ModArmorLeggings.name=Advanced Energy Leggings
+item.ModArmorBoots.name=Advanced Energy Boots
+
+item.JuggerArmorHelmet.name=Jugger Helmet
+item.JuggerArmorChestPlate.name=Jugger ChestPlate
+item.JuggerArmorLeggings.name=Jugger Leggings
+item.JuggerArmorBoots.name=Jugger Boots
+
+item.DefenderArmorHelmet.name=Defender Helmet
+item.DefenderArmorChestPlate.name=Defender ChestPlate
+item.DefenderArmorLeggings.name=Defender Leggings
+item.DefenderArmorBoots.name=Defender Boots
+
+item.AgilityArmorHelmet.name=Agility Helmet
+item.AgilityArmorChestPlate.name=Agility ChestPlate
+item.AgilityArmorLeggings.name=Agility Leggings
+item.AgilityArmorBoots.name=Agility Boots
+
+item.DiamondInlaidCircuit.name=Diamond Inlaid Circuit
+item.IridiumInlaidCircuit.name=Iridium Inlaid Circuit
+item.EnergyShieldMagnet.name=Magnet
+item.EnergyShieldMagnetCoil.name=Magnet Coil
+item.EnergyShieldCore.name=Shield Core
+item.EnergySaberCore.name=Saber Core
+item.ModificatorCore.name=Module Core
+item.UpdaterCore.name=Updater Core
+item.NuclearComponent.name=Nuclear Component
+item.ColorModificatorBlue.name=Color Modificator: Blue
+item.ColorModificatorRed.name=Color Modificator: Red
+item.EnergyMicrox.name=Microx
+item.UltimateEnergyCrystal.name=Ultimate Energy Crystal
+item.PoisonModule.name=Poison Module
+item.StunModule.name=Stun Module
+item.WeakModule.name=Weak Module
+item.HealModule.name=Heal Module
+item.EnergySaber.name=Energy Saber
+item.EnergySaberRed.name=Energy Saber
+item.EnergyStimulatorExtractStr.name=Energy Stimulator Extract: Strength
+item.EnergyStimulatorCoreStr.name=Energy Stimulator Core: Strength
+item.EnergyStimulatorStr1.name=Energy Stimulator: Strength
+item.EnergyStimulatorStr2.name=Energy Stimulator: Strength
+item.EnergyStimulatorStr3.name=Energy Stimulator: Strength
+item.EnergyStimulatorExtractReg.name=Energy Stimulator Extract Regeneration
+item.EnergyStimulatorCoreReg.name=Energy Stimulator Core: Regegeneration
+item.EnergyStimulatorReg1.name=Energy Stimulator: Regeneration
+item.EnergyStimulatorReg2.name=Energy Stimulator: Regeneration
+item.EnergyStimulatorReg3.name=Energy Stimulator: Regeneration
+item.EnergyStimulatorExtractDef.name=Energy Stimulator Extract: Defence
+item.EnergyStimulatorCoreDef.name=Energy Stimulator Core: Defence
+item.EnergyStimulatorDef1.name=Energy Stimulator: Defence
+item.EnergyStimulatorDef2.name=Energy Stimulator: Defence
+item.EnergyStimulatorDef3.name=Energy Stimulator: Defence
+item.UltimateStimulator1.name=Ultimate Stimulator
+item.UltimateStimulator2.name=Ultimate Stimulator
+item.UltimateStimulator3.name=Ultimate Stimulator
+item.EnergyShield1.name=Energy Shield
+item.EnergyShield2.name=Energy Shield
+item.EnergyShield3.name=Energy Shield
+item.EnergyBar.name=Energy Bar
+item.EnergyMatrix.name=Energy Matrix
+item.EnergyMatrixStandart.name=Energy Matrix
+item.EnergyMatrixUltra.name=Energy Matrix
+
+item.EnergyUpdaterFallDamage3.name=Energy Updater
+item.EnergyUpdaterRemovePoison.name=Energy Updater
+item.EnergyUpdaterAutoFood.name=Energy Updater
+item.EnergyUpdaterJump1.name=Energy Updater
+item.EnergyUpdaterJump2.name=Energy Updater
+item.EnergyUpdaterJump3.name=Energy Updater
+item.EnergyUpdaterSpeed1.name=Energy Updater
+item.EnergyUpdaterSpeed2.name=Energy Updater
+item.EnergyUpdaterSpeed3.name=Energy Updater
+item.EnergyUpdaterBlind2.name=Energy Updater
+item.EnergyUpdaterUnderWater.name=Energy Updater
+item.EnergyUpdaterNightVision.name=Energy Updater
+item.EnergyUpdaterPoisonAllAround.name=Energy Updater
+item.EnergyUpdaterAddRegeneration2.name=Energy Updater
+item.EnergyUpdaterAddRegeneration3.name=Energy Updater
+item.EnergyUpdaterRestoreHeartOnHit1.name=Energy Updater
+item.EnergyUpdaterRestoreHeartOnHit2.name=Energy Updater
+item.EnergyUpdaterRestoreHeartOnHit3.name=Energy Updater
+item.EnergyUpdaterJumpOnHit1.name=Energy Updater
+item.EnergyUpdaterJumpOnHit2.name=Energy Updater
+item.EnergyUpdaterJumpOnHit3.name=Energy Updater
+item.EnergyUpdaterSpeedOnHit1.name=Energy Updater
+item.EnergyUpdaterSpeedOnHit2.name=Energy Updater
+item.EnergyUpdaterSpeedOnHit3.name=Energy Updater
+item.EnergyUpdaterMine2.name=Energy Updater
+item.EnergyUpdaterSlowdown3.name=Energy Updater
+item.EnergyUpdaterRegenerationN3.name=Energy Updater
+
+creative.Gandiva.name=Gandiva
+creative.SuicideSquad.name=Suicide Squad Stuff
+creative.IonisSword.name=Ionis Sword
+creative.TritonHelmet.name=Triton Helmet
+creative.PainChestPlate.name=Pain ChestPlate
+creative.WalkerLeggings.name=Walker Leggings
+creative.RedBoolBoots.name=Red Bool Boots
+creative.SoulAmulet.name=Soul Amulet
+creative.VampiricElixir.name=Vampiric Elixir
+
+
+potioneffect.agony=Agony
+potioneffect.agonyincubation=Agony Incubation
+potioneffect.vamp=Vamp
+
+eventhandler.hellomessage.1=Thank you for using EnergyAdditions!
+eventhandler.hellomessage.2=Created specially for worldcraftserver.ru by Thunderbird and SylCode.
+eventhandler.hellomessage.3=Press OpenEnergyInventory key to open EnergyAdditions inventory.
+
+tag.creative.relic=[Relic]
+tag.creative.owner=Owner: 
+tag.creative.durability=Infinite Durability
+tag.creative.bow.mode=Mode: 
+tag.creative.bow.mode.powershot=Power Shot
+tag.creative.bow.mode.arrowrain=Arrow Rain
+tag.creative.bow.tooltip=Double-click to change mode
+tag.creative.bow.effects.1=Infinite Arrows
+tag.creative.bow.effects.2=Poison Hits
+tag.creative.bow.effects.3=Attack Speed
+tag.creative.ionis.experience=Experience:  
+tag.creative.ionis.damage=Max Damage: 51 
+tag.creative.ionis.effects.1=500 exp: Absorption 1 on hit
+tag.creative.ionis.effects.2=1000 exp: Hunger 4(enemy)
+tag.creative.ionis.effects.3=1500 exp: Regeneration 2 on hit
+tag.creative.ionis.effects.4=2000 exp: Wither 4(enemy)
+tag.creative.elixir.effects=Removes Vamp effect from player
+tag.creative.tritonhelmet.effects.1=Water breathing
+tag.creative.tritonhelmet.effects.2=Increased swimming speed
+tag.creative.painchestplate.effects.1=95% damage reduction
+tag.creative.painchestplate.effects.2=Regeneration 3
+tag.creative.painchestplate.effects.3=+4 hearths
+tag.creative.walkerleggings.effects.1=x2 movement speed
+tag.creative.walkerleggings.effects.2=Jump 3
+tag.creative.redboolboots.effects.1=Flight
+tag.creative.redboolboots.effects.2=No fall damage
+tag.creative.redboolboots.effects.3=Feather falling
+
+tag.armor.durability=Durability:
+tag.blocks.energycharger.energy=Current Energy: 
+tag.blocks.energycharger.tooltip.1=Can charge items around
+tag.blocks.energycharger.tooltip.2=Thanks DarkV for that idea!
+
+tag.items.general.stim.feelthepower=Feel the power! 
+tag.items.general.noteboughtenergy=Not enough energy!
+tag.items.general.enabled=Enabled
+tag.items.general.disabled=Disabled
+tag.items.general.energy=Energy: 
+tag.items.general.onright=On right-click: 
+tag.items.general.tier=Tier: 
+tag.items.microxtooltip=Right-click and wait 5 seconds
+tag.items.saber.poison=Poison
+tag.items.saber.stun=Stun
+tag.items.saber.weakness=Weakness
+tag.items.saber.heal=Heal
+tag.items.saber.none=None
+tag.items.saber.modules=Possible modules: 
+tag.items.stim.effect.strength=Strength 
+tag.items.stim.effect.regeneration=Regeneration 
+tag.items.stim.effect.defence=Resistance 
+tag.items.stim.effect.fireprotection=Fire resistance 
+tag.items.stim.consumes=Consumes 
+tag.items.stim.sec= seconds
+tag.items.stim.on= for 
+tag.items.shield.tooltip.1=Activates the shield
+tag.items.shield.tooltip.2=Can absorb damage types:
+tag.items.shield.activated=Shield activeted!
+tag.items.shield.unactivated=Shield deactivated!
+tag.items.shield.shift=Hold Shift for more information
+tag.items.shield.alldisabled=You can`t use it if you have the same in the inventory! All shields will be deactivated!
+tag.items.shield.damage.explosion=Explosion
+tag.items.shield.damage.projectile=Projectile
+tag.items.shield.damage.firedamage=Fire
+tag.items.shield.damage.magicdamage=Magic
+tag.items.shield.damage.absolutedamage=Absolute
+tag.items.shield.damage.cactus=Cactus
+tag.items.shield.damage.fall=Fall
+tag.items.shield.damage.wall=Wall
+tag.items.shield.damage.wither=Wither
+tag.items.shield.damage.fallingblock=Falling Block
+tag.items.shield.damage.anvil=Anvil
+tag.items.shield.damage.mob=Mob
+tag.items.shield.damage.player=Player
+tag.items.shield.damageblock.yes=Yes
+tag.items.shield.damageblock.no=No
+tag.items.shield.consumed=Consumed: 
+tag.items.food.tooltip=Restores food: 
+
+tag.updaters.type=Type: 
+tag.updaters.requires=Requires: 
+tag.updaters.effect=Effect: 
+
+tag.matrix.type.low=Type: Low
+tag.matrix.type.standart=Type: Standart
+tag.matrix.type.ultra=Type: Ultra
+
+tag.updaters.EnergyUpdaterFallDamage3.getupdater=Utility
+tag.updaters.EnergyUpdaterFallDamage3.gettype=Ultra
+tag.updaters.EnergyUpdaterFallDamage3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterFallDamage3.geteffect=No fall damage(5000EU)
+
+tag.updaters.EnergyUpdaterRemovePoison.getupdater=Defence
+tag.updaters.EnergyUpdaterRemovePoison.gettype=Ultra
+tag.updaters.EnergyUpdaterRemovePoison.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterRemovePoison.geteffect=Removes poison effect(50000EU)
+
+tag.updaters.EnergyUpdaterAutoFood.getupdater=Utility
+tag.updaters.EnergyUpdaterAutoFood.gettype=Ultra
+tag.updaters.EnergyUpdaterAutoFood.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterAutoFood.geteffect=Restores food automatically(40000EU)
+
+tag.updaters.EnergyUpdaterJump1.getupdater=Utility
+tag.updaters.EnergyUpdaterJump1.gettype=Low
+tag.updaters.EnergyUpdaterJump1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterJump1.geteffect=Jump 2(600EU/second)
+
+tag.updaters.EnergyUpdaterJump2.getupdater=Utility
+tag.updaters.EnergyUpdaterJump2.gettype=Standart
+tag.updaters.EnergyUpdaterJump2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterJump2.geteffect=Jump 4(1200EU/second)
+
+tag.updaters.EnergyUpdaterJump3.getupdater=Utilty
+tag.updaters.EnergyUpdaterJump3.gettype=Ultra
+tag.updaters.EnergyUpdaterJump3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterJump3.geteffect=Jump 8(3000EU/second)
+
+tag.updaters.EnergyUpdaterSpeed1.getupdater=Utilty
+tag.updaters.EnergyUpdaterSpeed1.gettype=Low
+tag.updaters.EnergyUpdaterSpeed1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterSpeed1.geteffect=Speed 2(600EU/second)
+
+tag.updaters.EnergyUpdaterSpeed2.getupdater=Utilty
+tag.updaters.EnergyUpdaterSpeed2.gettype=Standart
+tag.updaters.EnergyUpdaterSpeed2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterSpeed2.geteffect=Speed 4(2000EU/second)
+
+tag.updaters.EnergyUpdaterSpeed3.getupdater=Utilty
+tag.updaters.EnergyUpdaterSpeed3.gettype=Ultra
+tag.updaters.EnergyUpdaterSpeed3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterSpeed3.geteffect=Speed 8(2800EU/second)
+
+tag.updaters.EnergyUpdaterBlind2.getupdater=Combat
+tag.updaters.EnergyUpdaterBlind2.gettype=Standart
+tag.updaters.EnergyUpdaterBlind2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterBlind2.geteffect=Blinds all enemies around(35000EU)
+
+tag.updaters.EnergyUpdaterUnderWater.getupdater=Utilty
+tag.updaters.EnergyUpdaterUnderWater.gettype=Standart
+tag.updaters.EnergyUpdaterUnderWater.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterUnderWater.geteffect=Water breathing(600EU/second)
+
+tag.updaters.EnergyUpdaterNightVision.getupdater=Utilty
+tag.updaters.EnergyUpdaterNightVision.gettype=Standart
+tag.updaters.EnergyUpdaterNightVision.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterNightVision.geteffect=Night vision(400EU/second)
+
+tag.updaters.EnergyUpdaterPoisonAllAround.getupdater=Combat
+tag.updaters.EnergyUpdaterPoisonAllAround.gettype=Standart
+tag.updaters.EnergyUpdaterPoisonAllAround.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterPoisonAllAround.geteffect=Poisons all enemies around(50000EU)
+
+tag.updaters.EnergyUpdaterAddRegeneration2.getupdater=Utilty
+tag.updaters.EnergyUpdaterAddRegeneration2.gettype=Standart
+tag.updaters.EnergyUpdaterAddRegeneration2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterAddRegeneration2.geteffect=Regeneration 1(1000EU/second)
+
+tag.updaters.EnergyUpdaterAddRegeneration3.getupdater=Utilty
+tag.updaters.EnergyUpdaterAddRegeneration3.gettype=Ultra
+tag.updaters.EnergyUpdaterAddRegeneration3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterAddRegeneration3.geteffect=Regeneration 2(2000EU/second)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.getupdater=Combat
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.gettype=Low
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.geteffect=20% to restore 1 full heart on hit(20000EU)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.getupdater=Combat
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.gettype=Standart
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.geteffect=20% to restore 2 full hearts on hit(100000EU)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.getupdater=Combat
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.gettype=Ultra
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.geteffect=20% to restore 4 full hearts on hit(200000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit1.getupdater=Combat
+tag.updaters.EnergyUpdaterJumpOnHit1.gettype=Low
+tag.updaters.EnergyUpdaterJumpOnHit1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterJumpOnHit1.geteffect=Jump 2 on hit(1000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit2.getupdater=Combat
+tag.updaters.EnergyUpdaterJumpOnHit2.gettype=Standart
+tag.updaters.EnergyUpdaterJumpOnHit2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterJumpOnHit2.geteffect=Jump 4 on hit(10000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit3.getupdater=Combat
+tag.updaters.EnergyUpdaterJumpOnHit3.gettype=Ultra
+tag.updaters.EnergyUpdaterJumpOnHit3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterJumpOnHit3.geteffect=Jump 8 on hit(50000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit1.getupdater=Combat
+tag.updaters.EnergyUpdaterSpeedOnHit1.gettype=Low
+tag.updaters.EnergyUpdaterSpeedOnHit1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterSpeedOnHit1.geteffect=Speed 2 on hit(1000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit2.getupdater=Combat
+tag.updaters.EnergyUpdaterSpeedOnHit2.gettype=Standart
+tag.updaters.EnergyUpdaterSpeedOnHit2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterSpeedOnHit2.geteffect=Speed 4 on hit(10000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit3.getupdater=Combat
+tag.updaters.EnergyUpdaterSpeedOnHit3.gettype=Ultra
+tag.updaters.EnergyUpdaterSpeedOnHit3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterSpeedOnHit3.geteffect=Speed 8 on hit(50000EU)
+
+tag.updaters.EnergyUpdaterMine2.getupdater=Utilty
+tag.updaters.EnergyUpdaterMine2.gettype=Standart
+tag.updaters.EnergyUpdaterMine2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterMine2.geteffect=Auto-smelting with luck modifier(1000EU)
+
+tag.updaters.EnergyUpdaterSlowdown3.getupdater=Combat
+tag.updaters.EnergyUpdaterSlowdown3.gettype=Ultra
+tag.updaters.EnergyUpdaterSlowdown3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterSlowdown3.geteffect=Can slow enemies(100000EU)
+
+tag.updaters.EnergyUpdaterRegenerationN3.getupdater=Utilty
+tag.updaters.EnergyUpdaterRegenerationN3.gettype=Ultra
+tag.updaters.EnergyUpdaterRegenerationN3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterRegenerationN3.geteffect=Regegeneration 3 when health is below 50%(3000EU/second)
+

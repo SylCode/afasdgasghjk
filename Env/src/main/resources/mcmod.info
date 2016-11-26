@@ -1,0 +1,16 @@
+[
+{
+  "modid": "EnergyAdditions",
+  "name": "EnergyAdditions",
+  "description": "Energy shields, sabers, updaters and more",
+  "version": "3.0.7.11_Stable",
+  "mcversion": "1.7.10",
+  "url": "http://forum.industrial-craft.net/index.php?page=User&userID=44375&s",
+  "updateUrl": "",
+  "authorList": ["Thunderbird(Thunder), SylCode"],
+  "credits": "If you want to do something with this addon, contact me on IC2 forum",
+  "logoFile": "EnergyAddLogo.png",
+  "screenshots": [],
+  "dependencies": ["IndustrialCraft"]
+}
+]

@@ -1,0 +1,361 @@
+﻿#PARSE_ESCAPES
+itemGroup.EnergyAdditions=EnergyAdditions Предметы
+itemGroup.EnergyAdditionsCreative=EnergyAdditions Легендарное
+
+key.GuiWC.gui1=OpenEnergyInventory
+
+tile.EnergyCharger.name=Энергетический зарядник
+
+item.EnergyArmorHelmet.name=Энергетический шлем
+item.EnergyArmorChestPlate.name=Энергетический нагрудник
+item.EnergyArmorLeggings.name=Энергетические поножи
+item.EnergyArmorBoots.name=Энергетические ботинки
+
+item.ModArmorHelmet.name=Продвинутый энергетический шлем
+item.ModArmorChestPlate.name=Продвинутый энергетический нагрудник
+item.ModArmorLeggings.name=Продвинутые энергетические поножи
+item.ModArmorBoots.name=Продвинутые энергетические ботинки
+
+item.JuggerArmorHelmet.name=Шлем воина
+item.JuggerArmorChestPlate.name=Нагрудник воина
+item.JuggerArmorLeggings.name=Поножи воина
+item.JuggerArmorBoots.name=Ботинки воина
+
+item.DefenderArmorHelmet.name=Шлем защитника
+item.DefenderArmorChestPlate.name=Нагрудник защитника
+item.DefenderArmorLeggings.name=Поножи защитника
+item.DefenderArmorBoots.name=Ботинки защитника
+
+item.AgilityArmorHelmet.name=Шлем ловкача
+item.AgilityArmorChestPlate.name=Нагрудник ловкача
+item.AgilityArmorLeggings.name=Поножи ловкача
+item.AgilityArmorBoots.name=Ботинки ловкача
+
+item.DiamondInlaidCircuit.name=Инкрустированная алмазом микросхема
+item.IridiumInlaidCircuit.name=Инкрустированная иридием микросхема
+item.EnergyShieldMagnet.name=Магнит
+item.EnergyShieldMagnetCoil.name=Магнитная катушка
+item.EnergyShieldCore.name=Ядро щита
+item.EnergySaberCore.name=Ядро энергетической сабли
+item.ModificatorCore.name=Ядро модуля
+item.UpdaterCore.name=Ядро модификатора
+item.NuclearComponent.name=Радиоактивный компонент
+item.ColorModificatorBlue.name=Цветовое улучшение: Синий
+item.ColorModificatorRed.name=Цветовое улучшение: Красный
+item.EnergyMicrox.name=Микрокс
+item.UltimateEnergyCrystal.name=Ультимейт энергетический кристалл
+item.PoisonModule.name=Модуль отравления
+item.StunModule.name=Модуль оглушения
+item.WeakModule.name=Модуль слабости
+item.HealModule.name=Модуль исцеления
+item.EnergySaber.name=Энергетическая сабля
+item.EnergySaberRed.name=Энергетическая сабля
+item.EnergyStimulatorExtractStr.name=Экстракт стимулятора силы
+item.EnergyStimulatorCoreStr.name=Ядро стимулятора силы
+item.EnergyStimulatorStr1.name=Стимулятор силы
+item.EnergyStimulatorStr2.name=Стимулятор силы
+item.EnergyStimulatorStr3.name=Стимулятор силы
+item.EnergyStimulatorExtractReg.name=Экстракт стимулятора регенерации
+item.EnergyStimulatorCoreReg.name=Ядро стимулятоа регенерации
+item.EnergyStimulatorReg1.name=Стимулятор регенерации
+item.EnergyStimulatorReg2.name=Стимулятор регенерации
+item.EnergyStimulatorReg3.name=Стимулятор регенерации
+item.EnergyStimulatorExtractDef.name=Экстракт стимулятора защиты
+item.EnergyStimulatorCoreDef.name=Ядро стимулятора защиты
+item.EnergyStimulatorDef1.name=Стимулятор защиты
+item.EnergyStimulatorDef2.name=Стимулятор защиты
+item.EnergyStimulatorDef3.name=Стимулятор защиты
+item.UltimateStimulator1.name=Ультимейт стимулятор
+item.UltimateStimulator2.name=Ультимейт стимулятор
+item.UltimateStimulator3.name=Ультимейт стимулятор
+item.EnergyShield1.name=Энергетический щит
+item.EnergyShield2.name=Энергетический щит
+item.EnergyShield3.name=Энергетический щит
+item.EnergyBar.name=Энергетический батончик
+item.EnergyMatrix.name=Энергетическая матрица
+item.EnergyMatrixStandart.name=Энергетическая матрица
+item.EnergyMatrixUltra.name=Энергетическая матрица
+
+item.EnergyUpdaterFallDamage3.name=Энергетический модификатор
+item.EnergyUpdaterRemovePoison.name=Энергетический модификатор
+item.EnergyUpdaterAutoFood.name=Энергетический модификатор
+item.EnergyUpdaterJump1.name=Энергетический модификатор
+item.EnergyUpdaterJump2.name=Энергетический модификатор
+item.EnergyUpdaterJump3.name=Энергетический модификатор
+item.EnergyUpdaterSpeed1.name=Энергетический модификатор
+item.EnergyUpdaterSpeed2.name=Энергетический модификатор
+item.EnergyUpdaterSpeed3.name=Энергетический модификатор
+item.EnergyUpdaterBlind2.name=Энергетический модификатор
+item.EnergyUpdaterUnderWater.name=Энергетический модификатор
+item.EnergyUpdaterNightVision.name=Энергетический модификатор
+item.EnergyUpdaterPoisonAllAround.name=Энергетический модификатор
+item.EnergyUpdaterAddRegeneration2.name=Энергетический модификатор
+item.EnergyUpdaterAddRegeneration3.name=Энергетический модификатор
+item.EnergyUpdaterRestoreHeartOnHit1.name=Энергетический модификатор
+item.EnergyUpdaterRestoreHeartOnHit2.name=Энергетический модификатор
+item.EnergyUpdaterRestoreHeartOnHit3.name=Энергетический модификатор
+item.EnergyUpdaterJumpOnHit1.name=Энергетический модификатор
+item.EnergyUpdaterJumpOnHit2.name=Энергетический модификатор
+item.EnergyUpdaterJumpOnHit3.name=Энергетический модификатор
+item.EnergyUpdaterSpeedOnHit1.name=Энергетический модификатор
+item.EnergyUpdaterSpeedOnHit2.name=Энергетический модификатор
+item.EnergyUpdaterSpeedOnHit3.name=Энергетический модификатор
+item.EnergyUpdaterMine2.name=Энергетический модификатор
+item.EnergyUpdaterSlowdown3.name=Энергетический модификатор
+item.EnergyUpdaterRegenerationN3.name=Энергетический модификатор
+
+creative.Gandiva.name=Гандива
+creative.SuicideSquad.name=Посох самоубийц
+creative.IonisSword.name=Меч Иониса
+creative.TritonHelmet.name=Шлем Тритона
+creative.PainChestPlate.name=Нагрудник страданий
+creative.WalkerLeggings.name=Поножи путешественника
+creative.RedBoolBoots.name=Red Bool ботинки
+creative.SoulAmulet.name=Амулет души
+creative.VampiricElixir.name=Эликсир вампиризма
+
+
+potioneffect.agony=Агония
+potioneffect.agonyincubation=Инкубация: Агония
+potioneffect.vamp=Вампиризм
+
+eventhandler.hellomessage.1=Спасибо что используете аддон EnergyAdditions!
+eventhandler.hellomessage.2=Аддон создан специально для сервера worldcraftserver.ru by Thunderbird и SylCode.
+eventhandler.hellomessage.3=Нажмите OpenEnergyInventory кнопку чтобы открыть инвентарь EnergyAdditions.
+
+tag.creative.relic=[Реликвия]
+tag.creative.owner=Владелец: 
+tag.creative.durability=Бесконечная прочность
+tag.creative.bow.mode=Режим: 
+tag.creative.bow.mode.powershot=Снайпер
+tag.creative.bow.mode.arrowrain=Дождь из стрел
+tag.creative.bow.tooltip=Двойной клик чтоб сменить режим лука
+tag.creative.bow.effects.1=Бесконечные стрелы
+tag.creative.bow.effects.2=Ядовитые удары
+tag.creative.bow.effects.3=Скорость атаки
+tag.creative.ionis.experience=Опыт в бою:  
+tag.creative.ionis.damage=Максимальный урон: 51 
+tag.creative.ionis.effects.1=500 опыта: Абсорбция 1 при ударе
+tag.creative.ionis.effects.2=1000 опыта: Голод 4(на врага)
+tag.creative.ionis.effects.3=1500 опыта: Регенерация 2 при ударе
+tag.creative.ionis.effects.4=2000 опыта: Иссушение 4(на врага)
+tag.creative.elixir.effects=Очищает игрока от эффекта вампиризма
+tag.creative.tritonhelmet.effects.1=Подводное дыхание
+tag.creative.tritonhelmet.effects.2=Увеличение скорости плавания
+tag.creative.painchestplate.effects.1=95% поглощение урона
+tag.creative.painchestplate.effects.2=Регенерация 3
+tag.creative.painchestplate.effects.3=+4 доп. здоровья
+tag.creative.walkerleggings.effects.1=x2 к скорости ходьбы
+tag.creative.walkerleggings.effects.2=Прыжки 3
+tag.creative.redboolboots.effects.1=Полёт
+tag.creative.redboolboots.effects.2=Нет урона от падений
+tag.creative.redboolboots.effects.3=Парение
+
+tag.armor.durability=Прочность:
+tag.blocks.energycharger.energy=Энергия: 
+tag.blocks.energycharger.tooltip.1=Может заряжать вещи вокруг
+tag.blocks.energycharger.tooltip.2=Спасибо DarkV за эту идею!
+
+tag.items.general.stim.feelthepower=Ощути силу! 
+tag.items.general.noteboughtenergy=Недостаточно энергии!
+tag.items.general.enabled=Включен
+tag.items.general.disabled=Выключен
+tag.items.general.energy=Заряд: 
+tag.items.general.onright=После использования: 
+tag.items.general.tier=Уровень: 
+tag.items.microxtooltip=Подождите 5 секунд после использования
+tag.items.saber.poison=Отравление
+tag.items.saber.stun=Оглушение
+tag.items.saber.weakness=Слабость
+tag.items.saber.heal=Исцеление
+tag.items.saber.none=Нету
+tag.items.saber.modules=Подключенные модули: 
+tag.items.stim.effect.strength=Сила 
+tag.items.stim.effect.regeneration=Регенерация 
+tag.items.stim.effect.defence=Защита 
+tag.items.stim.effect.fireprotection=Защита от огня 
+tag.items.stim.consumes=Потребляет 
+tag.items.stim.sec= секунд
+tag.items.stim.on= на 
+tag.items.shield.tooltip.1=Активирует щит
+tag.items.shield.tooltip.2=Может поглотить типы урона:
+tag.items.shield.activated=Щит активирован!
+tag.items.shield.unactivated=Щит деактивирован!
+tag.items.shield.shift=Зажмите Shift для просмотра доп. информации
+tag.items.shield.alldisabled=Вы не можете использовать это если в инвентаре есть больше одного щита! Все щиты одного уровня деактивированы!
+tag.items.shield.damage.explosion=Взрыв
+tag.items.shield.damage.projectile=Снаряд
+tag.items.shield.damage.firedamage=Огонь
+tag.items.shield.damage.magicdamage=Магия
+tag.items.shield.damage.absolutedamage=Абсолютный
+tag.items.shield.damage.cactus=Кактус
+tag.items.shield.damage.fall=Падение
+tag.items.shield.damage.wall=Стена
+tag.items.shield.damage.wither=Иссушение
+tag.items.shield.damage.fallingblock=Падающий блок
+tag.items.shield.damage.anvil=Наковальня
+tag.items.shield.damage.mob=Моб
+tag.items.shield.damage.player=Игрок
+tag.items.shield.damageblock.yes=Да
+tag.items.shield.damageblock.no=Нет
+tag.items.shield.consumed=Поглощено 
+tag.items.food.tooltip=Возобновляет еды: 
+
+tag.updaters.type=Тип: 
+tag.updaters.requires=Необходимо: 
+tag.updaters.effect=Эффект: 
+
+tag.matrix.type.low=Тип: Слабый
+tag.matrix.type.standart=Тип: Стандартный
+tag.matrix.type.ultra=Тип: Ультра
+
+tag.updaters.EnergyUpdaterFallDamage3.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterFallDamage3.gettype=Ультра
+tag.updaters.EnergyUpdaterFallDamage3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterFallDamage3.geteffect=Нет урона от падения(5000EU)
+
+tag.updaters.EnergyUpdaterRemovePoison.getupdater=Защитный
+tag.updaters.EnergyUpdaterRemovePoison.gettype=Ультра
+tag.updaters.EnergyUpdaterRemovePoison.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterRemovePoison.geteffect=Снимает эффект отравления(50000EU)
+
+tag.updaters.EnergyUpdaterAutoFood.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterAutoFood.gettype=Ультра
+tag.updaters.EnergyUpdaterAutoFood.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterAutoFood.geteffect=Автоматически восстанавливает еду(40000EU)
+
+tag.updaters.EnergyUpdaterJump1.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterJump1.gettype=Слабый
+tag.updaters.EnergyUpdaterJump1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterJump1.geteffect=Прыжки 2(600EU/секунда)
+
+tag.updaters.EnergyUpdaterJump2.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterJump2.gettype=Стандартный
+tag.updaters.EnergyUpdaterJump2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterJump2.geteffect=Прыжки 4(1200EU/секунда)
+
+tag.updaters.EnergyUpdaterJump3.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterJump3.gettype=Ультра
+tag.updaters.EnergyUpdaterJump3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterJump3.geteffect=Прыжки 8(3000EU/секунда)
+
+tag.updaters.EnergyUpdaterSpeed1.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterSpeed1.gettype=Слабый
+tag.updaters.EnergyUpdaterSpeed1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterSpeed1.geteffect=Скорость 2(600EU/секунда)
+
+tag.updaters.EnergyUpdaterSpeed2.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterSpeed2.gettype=Стандартный
+tag.updaters.EnergyUpdaterSpeed2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterSpeed2.geteffect=Скорость 4(2000EU/секунда)
+
+tag.updaters.EnergyUpdaterSpeed3.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterSpeed3.gettype=Ультра
+tag.updaters.EnergyUpdaterSpeed3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterSpeed3.geteffect=Скорость 8(2800EU/секунда)
+
+tag.updaters.EnergyUpdaterBlind2.getupdater=Боевой
+tag.updaters.EnergyUpdaterBlind2.gettype=Стандартный
+tag.updaters.EnergyUpdaterBlind2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterBlind2.geteffect=Ослепляет всех врагов вокруг после удара(35000EU)
+
+tag.updaters.EnergyUpdaterUnderWater.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterUnderWater.gettype=Стандартный
+tag.updaters.EnergyUpdaterUnderWater.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterUnderWater.geteffect=Подводное дыхание(600EU/секунда)
+
+tag.updaters.EnergyUpdaterNightVision.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterNightVision.gettype=Стандартный
+tag.updaters.EnergyUpdaterNightVision.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterNightVision.geteffect=Ночное зрение(400EU/секунда)
+
+tag.updaters.EnergyUpdaterPoisonAllAround.getupdater=Боевой
+tag.updaters.EnergyUpdaterPoisonAllAround.gettype=Стандартный
+tag.updaters.EnergyUpdaterPoisonAllAround.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterPoisonAllAround.geteffect=Отравляет всех врагов вокруг после удара(50000EU)
+
+tag.updaters.EnergyUpdaterAddRegeneration2.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterAddRegeneration2.gettype=Стандартный
+tag.updaters.EnergyUpdaterAddRegeneration2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterAddRegeneration2.geteffect=Регенерация 1(1000EU/секунда)
+
+tag.updaters.EnergyUpdaterAddRegeneration3.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterAddRegeneration3.gettype=Ультра
+tag.updaters.EnergyUpdaterAddRegeneration3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterAddRegeneration3.geteffect=Регенерация 2(2000EU/секунда)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.getupdater=Боевой
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.gettype=Слабый
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterRestoreHeartOnHit1.geteffect=20% шанс восстановить 1 сердце при ударе(20000EU)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.getupdater=Боевой
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.gettype=Стандартный
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterRestoreHeartOnHit2.geteffect=20% шанс восстановить 2 сердца при ударе(100000EU)
+
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.getupdater=Боевой
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.gettype=Ультра
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterRestoreHeartOnHit3.geteffect=20% шанс восстановить 4 сердца при ударе(200000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit1.getupdater=Боевой
+tag.updaters.EnergyUpdaterJumpOnHit1.gettype=Слабый
+tag.updaters.EnergyUpdaterJumpOnHit1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterJumpOnHit1.geteffect=Прыжки 2 после автоатаки(1000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit2.getupdater=Боевой
+tag.updaters.EnergyUpdaterJumpOnHit2.gettype=Стандартный
+tag.updaters.EnergyUpdaterJumpOnHit2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterJumpOnHit2.geteffect=Прыжки 4 после автоатаки(10000EU)
+
+tag.updaters.EnergyUpdaterJumpOnHit3.getupdater=Боевой
+tag.updaters.EnergyUpdaterJumpOnHit3.gettype=Ультра
+tag.updaters.EnergyUpdaterJumpOnHit3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterJumpOnHit3.geteffect=Прыжки 8 после автоатаки(50000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit1.getupdater=Боевой
+tag.updaters.EnergyUpdaterSpeedOnHit1.gettype=Слабый
+tag.updaters.EnergyUpdaterSpeedOnHit1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterSpeedOnHit1.geteffect=Скорость 2 после автоатаки(1000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit2.getupdater=Боевой
+tag.updaters.EnergyUpdaterSpeedOnHit2.gettype=Стандартный
+tag.updaters.EnergyUpdaterSpeedOnHit2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterSpeedOnHit2.geteffect=Скорость 4 после автоатаки(10000EU)
+
+tag.updaters.EnergyUpdaterSpeedOnHit3.getupdater=Боевой
+tag.updaters.EnergyUpdaterSpeedOnHit3.gettype=Ультра
+tag.updaters.EnergyUpdaterSpeedOnHit3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterSpeedOnHit3.geteffect=Скорость 8 после автоатаки(50000EU)
+
+tag.updaters.EnergyUpdaterMine2.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterMine2.gettype=Стандартный
+tag.updaters.EnergyUpdaterMine2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterMine2.geteffect=Авто-плавка при добывании с учетом удачи(1000EU)
+
+tag.updaters.EnergyUpdaterSlowdown3.getupdater=Боевой
+tag.updaters.EnergyUpdaterSlowdown3.gettype=Ультра
+tag.updaters.EnergyUpdaterSlowdown3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterSlowdown3.geteffect=Сильно замедляет врагов при ударе(100000EU)
+
+tag.updaters.EnergyUpdaterRegenerationN3.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterRegenerationN3.gettype=Ультра
+tag.updaters.EnergyUpdaterRegenerationN3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterRegenerationN3.geteffect=Регенерация 3 когда здоровье меньше 50%(3000EU/секунда)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
