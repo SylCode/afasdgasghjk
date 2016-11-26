@@ -170,5 +170,18 @@ public class IEnergyCharger extends Block {
 	  {
 	    return !FMLCommonHandler.instance().getEffectiveSide().isClient();
 	  }
+	
+	public void onNeighborBlockChange(World world, int i, int j, int k, Block block)
+    {
+        boolean flag = world.isBlockIndirectlyGettingPowered(i, j, k) || world.isBlockIndirectlyGettingPowered(i, j + 1, k);
+        int l = world.getBlockMetadata(i, j, k);
+        boolean flag1 = (l & 8) != 0;
+
+        if (flag && !flag1)
+        {
+        	world.scheduleBlockUpdate(i, j, k, this, this.tickRate(world));
+        }
+     
+    }
 
 }

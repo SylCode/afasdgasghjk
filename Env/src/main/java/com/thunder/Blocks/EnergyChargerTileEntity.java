@@ -27,6 +27,7 @@ public EnergyChargerTileEntity() {
 	
 	protected void updateEntityServer()
 	  {
+		
 		 List list = worldObj.getEntitiesWithinAABB(Entity.class, AxisAlignedBB.getBoundingBox((float) (xCoord -9), (float) (yCoord - 11), (float) (zCoord - 9), (float) (xCoord + 11), (float) (yCoord + 11), (float) (zCoord + 11)));
 		 for(int i=0; i < list.size(); i++)
          {
@@ -35,6 +36,7 @@ public EnergyChargerTileEntity() {
             	  getItems((EntityPlayer) e);
               }
          }
+		
 	  }
 		
 	protected void getItems(EntityPlayer player)

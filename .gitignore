@@ -67,3 +67,9 @@ Env/LICENSE-fml.txt
 Env/MinecraftForge-Credits.txt
 Env/MinecraftForge-License.txt
 Env/README.txt
+Env/.metadata/*
+Env/forge-1.7.10-10.13.4.1558-1.7.10-src.zip
+Env/libs/industrialcraft-2-2.2.823-experimental-dev.jar
+Env/dfg.bat
+Env/gradle.properties
+Env/local.properties
