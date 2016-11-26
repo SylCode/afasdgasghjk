@@ -103,6 +103,10 @@ item.EnergyUpdaterSpeedOnHit3.name=Energy Updater
 item.EnergyUpdaterMine2.name=Energy Updater
 item.EnergyUpdaterSlowdown3.name=Energy Updater
 item.EnergyUpdaterRegenerationN3.name=Energy Updater
+item.EnergyUpdaterAddStrength1.name=Energy Updater
+item.EnergyUpdaterAddStrength2.name=Energy Updater
+item.EnergyUpdaterAddStrength3.name=Energy Updater
+item.EnergyUpdaterAddWither.name=Energy Updater
 
 creative.Gandiva.name=Gandiva
 creative.SuicideSquad.name=Suicide Squad Stuff
@@ -343,4 +347,33 @@ tag.updaters.EnergyUpdaterRegenerationN3.getupdater=Utilty
 tag.updaters.EnergyUpdaterRegenerationN3.gettype=Ultra
 tag.updaters.EnergyUpdaterRegenerationN3.getmatrix=Ultra matrix
 tag.updaters.EnergyUpdaterRegenerationN3.geteffect=Regegeneration 3 when health is below 50%(3000EU/second)
+
+tag.updaters.EnergyUpdaterAddStrength1.getupdater=Combat
+tag.updaters.EnergyUpdaterAddStrength1.gettype=Low
+tag.updaters.EnergyUpdaterAddStrength1.getmatrix=Low matrix +
+tag.updaters.EnergyUpdaterAddStrength1.geteffect=20% charce to get strength 2 on hit(1000EU)
+
+tag.updaters.EnergyUpdaterAddStrength2.getupdater=Combat
+tag.updaters.EnergyUpdaterAddStrength2.gettype=Standart
+tag.updaters.EnergyUpdaterAddStrength2.getmatrix=Standart matrix +
+tag.updaters.EnergyUpdaterAddStrength2.geteffect=20% charce to get strength 4 on hit(10000EU)
+
+tag.updaters.EnergyUpdaterAddStrength3.getupdater=Combat
+tag.updaters.EnergyUpdaterAddStrength3.gettype=Ultra
+tag.updaters.EnergyUpdaterAddStrength3.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterAddStrength3.geteffect=20% charce to get strength 5 on hit(50000EU)
+
+tag.updaters.EnergyUpdaterAddWither.getupdater=Combat
+tag.updaters.EnergyUpdaterAddWither.gettype=Ultra
+tag.updaters.EnergyUpdaterAddWither.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterAddWither.geteffect=20% chance to slowdown enemy on hit(50000EU)
+
+
+
+
+
+
+
+
+
 

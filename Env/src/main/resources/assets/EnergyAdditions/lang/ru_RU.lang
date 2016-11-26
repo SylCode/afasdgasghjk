@@ -103,6 +103,10 @@ item.EnergyUpdaterSpeedOnHit3.name=Энергетический модифика
 item.EnergyUpdaterMine2.name=Энергетический модификатор
 item.EnergyUpdaterSlowdown3.name=Энергетический модификатор
 item.EnergyUpdaterRegenerationN3.name=Энергетический модификатор
+item.EnergyUpdaterAddStrength1.name=Энергетический модификатор
+item.EnergyUpdaterAddStrength2.name=Энергетический модификатор
+item.EnergyUpdaterAddStrength3.name=Энергетический модификатор
+item.EnergyUpdaterAddWither.name=Энергетический модификатор
 
 creative.Gandiva.name=Гандива
 creative.SuicideSquad.name=Посох самоубийц
@@ -344,11 +348,25 @@ tag.updaters.EnergyUpdaterRegenerationN3.gettype=Ультра
 tag.updaters.EnergyUpdaterRegenerationN3.getmatrix=Ультра матрица
 tag.updaters.EnergyUpdaterRegenerationN3.geteffect=Регенерация 3 когда здоровье меньше 50%(3000EU/секунда)
 
+tag.updaters.EnergyUpdaterAddStrength1.getupdater=Боевой
+tag.updaters.EnergyUpdaterAddStrength1.gettype=Слабый
+tag.updaters.EnergyUpdaterAddStrength1.getmatrix=Слабая матрица +
+tag.updaters.EnergyUpdaterAddStrength1.geteffect=20% шанс получить силу 2 после автоатаки на 1 секунду(1000EU)
 
+tag.updaters.EnergyUpdaterAddStrength2.getupdater=Боевой
+tag.updaters.EnergyUpdaterAddStrength2.gettype=Стандартный
+tag.updaters.EnergyUpdaterAddStrength2.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterAddStrength2.geteffect=20% шанс получить силу 4 после автоатаки на 1 секунду(10000EU)
 
+tag.updaters.EnergyUpdaterAddStrength3.getupdater=Боевой
+tag.updaters.EnergyUpdaterAddStrength3.gettype=Ультра
+tag.updaters.EnergyUpdaterAddStrength3.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterAddStrength3.geteffect=20% шанс получить силу 5 после автоатаки на 1 секунду(50000EU)
 
-
-
+tag.updaters.EnergyUpdaterAddWither.getupdater=Боевой
+tag.updaters.EnergyUpdaterAddWither.gettype=Ультра
+tag.updaters.EnergyUpdaterAddWither.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterAddWither.geteffect=20% шанс наложить на врага эффект усталости после автоатаки(50000EU)
 
 
 

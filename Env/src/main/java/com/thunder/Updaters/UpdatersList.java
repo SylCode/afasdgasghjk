@@ -12,9 +12,6 @@ public class UpdatersList {
 	public static Item EnergyMatrixStandart;
 	public static Item EnergyMatrixUltra;
 	public static Item EnergyUpdater;
-	public static Item EnergyUpdater1;
-	public static Item EnergyUpdaterCombat2;
-	public static Item EnergyUpdaterCombat3;
 	public static Item EnergyUpdaterFallDamage3;
 	public static Item EnergyUpdaterRemovePoison;
 	public static Item EnergyUpdaterAutoFood;
@@ -34,8 +31,6 @@ public class UpdatersList {
 	public static Item EnergyUpdaterRestoreHeartOnHit1;
 	public static Item EnergyUpdaterRestoreHeartOnHit2;
 	public static Item EnergyUpdaterRestoreHeartOnHit3;
-	public static Item EnergyUpdaterAddExtraDamage2;
-	public static Item EnergyUpdaterAddExtraDamage3;
 	public static Item EnergyUpdaterAddJumpOnHit1;
 	public static Item EnergyUpdaterAddJumpOnHit2;
 	public static Item EnergyUpdaterAddJumpOnHit3;
@@ -45,7 +40,12 @@ public class UpdatersList {
 	public static Item EnergyUpdaterMine2;
 	public static Item EnergyUpdaterSlowdown3;
 	public static Item EnergyUpdaterRegenerationN3;
-	public static Item EnergyUpdaterJetPack;
+	public static Item EnergyUpdaterAddStrength1;
+	public static Item EnergyUpdaterAddStrength2;
+	public static Item EnergyUpdaterAddStrength3;
+	public static Item EnergyUpdaterAddWither;
+
+	
 	
 	public static void updatersList(){
 		
@@ -132,6 +132,18 @@ public class UpdatersList {
 	    EnergyUpdaterRegenerationN3 = new IEnergyUpdaterRegenerationN3().setUnlocalizedName("EnergyUpdaterRegenerationN3");
 	    GameRegistry.registerItem(EnergyUpdaterRegenerationN3, "EnergyUpdaterRegenerationN3");
 	    
+	    EnergyUpdaterAddStrength1 = new IEnergyUpdaterAddStrength1().setUnlocalizedName("EnergyUpdaterAddStrength1");
+	    GameRegistry.registerItem(EnergyUpdaterAddStrength1, "EnergyUpdaterAddStrength1");
+	    
+	    EnergyUpdaterAddStrength2 = new IEnergyUpdaterAddStrength2().setUnlocalizedName("EnergyUpdaterAddStrength2");
+	    GameRegistry.registerItem(EnergyUpdaterAddStrength2, "EnergyUpdaterAddStrength2");
+	    
+	    EnergyUpdaterAddStrength3 = new IEnergyUpdaterAddStrength3().setUnlocalizedName("EnergyUpdaterAddStrength3");
+	    GameRegistry.registerItem(EnergyUpdaterAddStrength3, "EnergyUpdaterAddStrength3");
+	    
+	    EnergyUpdaterAddWither = new IEnergyUpdaterAddWither().setUnlocalizedName("EnergyUpdaterAddWither");
+	    GameRegistry.registerItem(EnergyUpdaterAddWither, "EnergyUpdaterAddWither");
+	    
 	    EnergyMatrix = new IEnergyMatrixLow().setUnlocalizedName("EnergyMatrix");
 	    GameRegistry.registerItem(EnergyMatrix, "EnergyMatrix");
 	    
@@ -141,6 +153,7 @@ public class UpdatersList {
 	    EnergyMatrixUltra = new IEnergyMatrixUltra().setUnlocalizedName("EnergyMatrixUltra");
 	    GameRegistry.registerItem(EnergyMatrixUltra, "EnergyMatrixUltra");
 	    
+	        
 		
 		
 		
