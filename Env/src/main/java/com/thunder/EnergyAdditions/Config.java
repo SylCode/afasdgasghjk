@@ -567,8 +567,8 @@ public class Config {
 		SNanoDischarge = property.getDouble(64000.0);
 		property = config.get(OptionsSaber.getName(), "QuantDischargeOnHit", 450000.0);
 		SQuantDischarge = property.getDouble(450000.0);
-		property = config.get(OptionsSaber.getName(), "DrainSaberEveryTick", 80.0);
-		SDrainOnUpdate = property.getDouble(80.0);
+		property = config.get(OptionsSaber.getName(), "DrainSaberEveryTick", 10.0);
+		SDrainOnUpdate = property.getDouble(10.0);
 		
 		property = config.get(OptionsSaber.getName(), "AllowPoisonModule", true);
 		SPoisonModule = property.getBoolean(true);
