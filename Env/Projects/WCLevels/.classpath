@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/MCCore plugins/MCCore.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/MCCore plugins/Parties.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/MCCore plugins/SkillAPI.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/Cool Serv/1.7.10/TFC 1.7.10 Server(С багом и плагинами)/TFC 1.7.10 Server/plugins/Essentials.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/Cool Serv/1.7.10/TFC 1.7.10 Server(С багом и плагинами)/TFC 1.7.10 Server/plugins/Statz-1.3.3.1.jar" sourcepath="/Statz-master/src"/>
+	<classpathentry kind="lib" path="D:/Minecraft/Code/WorldCraft Mods and Plugins/Env/build/libs/modid-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Никита/Desktop/Cool Serv/1.7.10/TFC 1.7.10 Server(С багом и плагинами)/TFC 1.7.10 Server/cauldron-1.7.10-1.1388.1.0-server.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

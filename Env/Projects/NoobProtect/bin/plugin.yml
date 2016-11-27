@@ -1,0 +1,15 @@
+name: NoobProtect
+main: sylcode.noobprotect.NoobProtect
+version: 0.0.4
+commands:
+   noob:
+      aliases: [pvp]
+      description: 
+      usage: 
+           /noob help
+   pvp-on:
+      aliases: [pvpon]
+      description: 
+      usage: 
+           /pvp-on
+          

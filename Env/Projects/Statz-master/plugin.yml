@@ -1,0 +1,27 @@
+main: me.staartvin.statz.Statz
+name: Statz
+version: ${project.version}
+authors: [Staartvin]
+description: The one-and-all plugin to record and store stats about any player.
+softdepend: [Vault, Essentials, GroupManager, Stats, WorldEdit, WorldGuard, Factions, mcMMO, RoyalCommands, OnTime, UltimateCore, Statistics, afkTerminator, AcidIsland, ASkyBlock, Votifier, GriefPrevention, RPGme]
+commands:
+    statz:
+        description: Master command of Statz
+        usage: Statz is disabled. Check your server.log!
+        aliases: [stat]
+permissions:
+    statz.help:
+        description: Allows checking the help pages
+        default: true
+    statz.list:
+        description: Allows a player to check its statistics
+        default: true
+    statz.hooks:
+        description: Allows a player to check what plugins Statz is currently connected with
+        default: op
+    statz.transfer.sqlite:
+        description: Allows a player to start the transferring of data from SQLite to MySQL.
+        default: op
+    statz.migrate:
+        description: Allows a player to start migrating data from Stats 3 to Statz.
+        default: op

@@ -1,0 +1,12 @@
+name: WCLevels
+main: sylcode.levels.WCLevels
+version: 0.0.1
+depend: [Essentials]
+commands:
+   wcl:
+      description: Player info
+      permission: wclevels.wcl
+   completelvl:
+      description: 
+      permission: wclevels.admin
+          

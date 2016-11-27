@@ -54,7 +54,6 @@ Env/build/*
 Env/eclipse/*
 Env/gradle/*
 Env/Mods_src/*
-Env/Projects/*
 Env/gradlew
 Env/.project
 Env/build.gradle
