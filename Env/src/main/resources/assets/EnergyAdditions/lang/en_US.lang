@@ -107,6 +107,7 @@ item.EnergyUpdaterAddStrength1.name=Energy Updater
 item.EnergyUpdaterAddStrength2.name=Energy Updater
 item.EnergyUpdaterAddStrength3.name=Energy Updater
 item.EnergyUpdaterAddWither.name=Energy Updater
+item.EnergyUpdaterLavaFreezing.name=Energy Updater
 
 creative.Gandiva.name=Gandiva
 creative.SuicideSquad.name=Suicide Squad Stuff
@@ -368,7 +369,10 @@ tag.updaters.EnergyUpdaterAddWither.gettype=Ultra
 tag.updaters.EnergyUpdaterAddWither.getmatrix=Ultra matrix
 tag.updaters.EnergyUpdaterAddWither.geteffect=20% chance to slowdown enemy on hit(50000EU)
 
-
+tag.updaters.EnergyUpdaterLavaFreezing.getupdater=Utility
+tag.updaters.EnergyUpdaterLavaFreezing.gettype=Ultra
+tag.updaters.EnergyUpdaterLavaFreezing.getmatrix=Ultra matrix
+tag.updaters.EnergyUpdaterLavaFreezing.geteffect=Turns lava under a player into obsidian(500EU)
 
 
 

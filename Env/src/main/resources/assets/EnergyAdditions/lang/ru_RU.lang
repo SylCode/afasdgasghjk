@@ -107,6 +107,7 @@ item.EnergyUpdaterAddStrength1.name=Энергетический модифик�
 item.EnergyUpdaterAddStrength2.name=Энергетический модификатор
 item.EnergyUpdaterAddStrength3.name=Энергетический модификатор
 item.EnergyUpdaterAddWither.name=Энергетический модификатор
+item.EnergyUpdaterLavaFreezing.name=Энергетический модификатор
 
 creative.Gandiva.name=Гандива
 creative.SuicideSquad.name=Посох самоубийц
@@ -368,7 +369,10 @@ tag.updaters.EnergyUpdaterAddWither.gettype=Ультра
 tag.updaters.EnergyUpdaterAddWither.getmatrix=Ультра матрица
 tag.updaters.EnergyUpdaterAddWither.geteffect=20% шанс наложить на врага эффект усталости после автоатаки(50000EU)
 
-
+tag.updaters.EnergyUpdaterLavaFreezing.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterLavaFreezing.gettype=Ультра
+tag.updaters.EnergyUpdaterLavaFreezing.getmatrix=Ультра матрица
+tag.updaters.EnergyUpdaterLavaFreezing.geteffect=Превращает лаву под игроком на обсидиан(500EU)
 
 
 

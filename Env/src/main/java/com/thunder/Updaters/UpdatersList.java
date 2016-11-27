@@ -44,8 +44,7 @@ public class UpdatersList {
 	public static Item EnergyUpdaterAddStrength2;
 	public static Item EnergyUpdaterAddStrength3;
 	public static Item EnergyUpdaterAddWither;
-
-	
+	public static Item EnergyUpdaterLavaFreezing;
 	
 	public static void updatersList(){
 		
@@ -143,6 +142,9 @@ public class UpdatersList {
 	    
 	    EnergyUpdaterAddWither = new IEnergyUpdaterAddWither().setUnlocalizedName("EnergyUpdaterAddWither");
 	    GameRegistry.registerItem(EnergyUpdaterAddWither, "EnergyUpdaterAddWither");
+	    
+	    EnergyUpdaterLavaFreezing = new IEnergyUpdaterLavaFreezing().setUnlocalizedName("EnergyUpdaterLavaFreezing");
+	    GameRegistry.registerItem(EnergyUpdaterLavaFreezing, "EnergyUpdaterLavaFreezing");
 	    
 	    EnergyMatrix = new IEnergyMatrixLow().setUnlocalizedName("EnergyMatrix");
 	    GameRegistry.registerItem(EnergyMatrix, "EnergyMatrix");
