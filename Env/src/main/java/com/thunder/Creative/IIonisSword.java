@@ -64,9 +64,8 @@ public class IIonisSword extends ItemSword {
 		{		
 			EntityPlayer player = (EntityPlayer)source;
 			
-			source.addPotionEffect(new PotionEffect(CreativePotionList.agonyIncubation.id, 20*120, 3));
-			source.addPotionEffect(new PotionEffect(CreativePotionList.Agony.id, 20*120, 3));
-			source.addPotionEffect(new PotionEffect(CreativePotionList.Vamp.id, 20*120, 3));
+			target.addPotionEffect(new PotionEffect(CreativePotionList.agonyIncubation.id, 20*120, 3));
+
 			
 			NBTTagCompound swordData = getOrCreateNbtData(sword);
 			String d = swordData.getString("swordOwner");
