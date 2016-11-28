@@ -16,6 +16,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.boss.EntityWither;
+import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
@@ -92,7 +94,11 @@ public class IIonisSword extends ItemSword {
 				if(experience >= 500) player.addPotionEffect(new PotionEffect(Potion.field_76444_x.id, 20*2, 0));
 				if(experience >= 1000) target.addPotionEffect(new PotionEffect(Potion.hunger.id, 20*2, 3));			
 				if(experience >= 1500) player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 20*2, 1));
-				if(experience >= 2000) target.addPotionEffect(new PotionEffect(Potion.wither.id, 20*2, 3));
+				if(experience >= 2000)
+				{
+					if(!(target instanceof EntityCreeper) && !(target instanceof EntityWither))
+					target.addPotionEffect(new PotionEffect(Potion.wither.id, 20*2, 3));
+				}
 			}
 		 
 		}
