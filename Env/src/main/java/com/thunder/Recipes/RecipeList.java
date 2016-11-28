@@ -156,8 +156,8 @@ public class RecipeList {
         	
         //lavawalker
         	
-        ic2.api.recipe.Recipes.advRecipes.addRecipe(new ItemStack(UpdatersList.EnergyUpdaterLavaFreezing, 1), new Object[] {"CRC", "RDR", "CRC", Character.valueOf('D'), Items.water_bucket, Character.valueOf('R'), IC2Items.getItem("glassFiberCableItem"), Character.valueOf('C'), ItemList.IridiumInlaidCircuit});
-        ic2.api.recipe.Recipes.advRecipes.addRecipe(new ItemStack(UpdatersList.EnergyUpdaterLavaFreezing, 1), new Object[] {"CRC", "RDR", "CRC", Character.valueOf('D'), Items.water_bucket, Character.valueOf('R'), new RecipeInputOreDict("cableGt01Platinum"), Character.valueOf('C'), ItemList.IridiumInlaidCircuit});         
+ //      ic2.api.recipe.Recipes.advRecipes.addRecipe(new ItemStack(UpdatersList.EnergyUpdaterLavaFreezing, 1), new Object[] {"CRC", "RDR", "CRC", Character.valueOf('D'), Items.water_bucket, Character.valueOf('R'), IC2Items.getItem("glassFiberCableItem"), Character.valueOf('C'), ItemList.IridiumInlaidCircuit});
+ //       ic2.api.recipe.Recipes.advRecipes.addRecipe(new ItemStack(UpdatersList.EnergyUpdaterLavaFreezing, 1), new Object[] {"CRC", "RDR", "CRC", Character.valueOf('D'), Items.water_bucket, Character.valueOf('R'), new RecipeInputOreDict("cableGt01Platinum"), Character.valueOf('C'), ItemList.IridiumInlaidCircuit});         
         	
         //wither       	
         ic2.api.recipe.Recipes.advRecipes.addRecipe(new ItemStack(UpdatersList.EnergyUpdaterAddWither, 1), new Object[] {"CRC", "RDR", "CRC", Character.valueOf('D'), Items.nether_star, Character.valueOf('R'), IC2Items.getItem("glassFiberCableItem"), Character.valueOf('C'), ItemList.IridiumInlaidCircuit});
