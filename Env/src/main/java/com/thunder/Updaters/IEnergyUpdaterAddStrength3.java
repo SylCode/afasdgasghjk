@@ -23,6 +23,8 @@ import net.minecraft.world.World;
 
 public class IEnergyUpdaterAddStrength3 extends IEnergyUpdater implements IEnergyAdd {
 	
+	Random r = new Random();
+	
 	IEnergyUpdaterAddStrength3(){
 		super();
 		
@@ -48,7 +50,7 @@ public class IEnergyUpdaterAddStrength3 extends IEnergyUpdater implements IEnerg
 				 }
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 50000.0D) && counter == 1){
-				 Random r = new Random();
+				 
 				 int random = r.nextInt(99);
 				 	if(random <= 30 && random >= 10){
 				 		player.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 20, 4));

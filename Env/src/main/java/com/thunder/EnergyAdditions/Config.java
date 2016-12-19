@@ -33,10 +33,14 @@ public class Config {
 	public static Boolean IridiumRemove;
 	public static Boolean SomeUpdatersSpawning;
 	public static Boolean SomeUpdatersCraft;
+	public static Boolean EnergyOreSpawn;
+	public static Boolean CraftsWithEnergyOre;
 	
 	public static Boolean UltimateEnergyCraft;
 	
 	public static Boolean EnergyChargerCraft;
+	public static Boolean AdvancedEnergyChargerCraft;
+	public static Boolean EnergyBinderCraft;
 	public static Boolean UpdatersCraft;
 	public static Boolean MatrixCraft;
 	public static Boolean UpdaterCoreCraft;
@@ -607,6 +611,10 @@ public class Config {
 		SomeUpdatersCraft = property.getBoolean(false);
 		property = config.get(OptionsOther.getName(), "NuclearComponentRadioactive", true);
 		NuclearComponentRadioactive = property.getBoolean(true);
+		property = config.get(OptionsOther.getName(), "EnergyOreSpawn", true);
+		EnergyOreSpawn = property.getBoolean(true);
+		property = config.get(OptionsOther.getName(), "CraftsWithEnergyOre", true);
+		CraftsWithEnergyOre = property.getBoolean(true);
 		
 		
 		
@@ -617,6 +625,12 @@ public class Config {
 		
 		property = config.get(Crafting.getName(), "EnergyChargerCraft", true);
 		EnergyChargerCraft = property.getBoolean(true);
+		
+		property = config.get(Crafting.getName(), "AdvancedEnergyChargerCraft", true);
+		AdvancedEnergyChargerCraft = property.getBoolean(true);
+		
+		property = config.get(Crafting.getName(), "EnergyBinderCraft", true);
+		EnergyBinderCraft = property.getBoolean(true);
 		
 		property = config.get(Crafting.getName(), "UpdatersCraft", true);
 		UpdatersCraft = property.getBoolean(true);

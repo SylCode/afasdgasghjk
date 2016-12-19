@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
+import com.thunder.Creative.CreativePotionList;
 import com.thunder.EnergyAdditions.Config;
 import com.thunder.EnergyAdditions.EnergyAdditionsCore;
 import com.thunder.Updaters.UpdatersList;
@@ -36,6 +37,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ISpecialArmor;
@@ -170,7 +172,9 @@ public class IModArmor extends ItemArmor implements ISpecialArmor, IElectricItem
 	      }
 	      ret = jetpackUsed;	      
 	      player.extinguish(); 
+	      //
 	      }
+	    
 	    
 	}
 	
@@ -507,6 +511,7 @@ public class IModArmor extends ItemArmor implements ISpecialArmor, IElectricItem
 	    
 	    return true;
 	  }
+	 
 	  
 	  public static AudioSource audioSource;
 	  private static boolean lastJetpackUsed = false;

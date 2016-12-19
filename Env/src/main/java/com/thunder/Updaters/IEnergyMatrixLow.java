@@ -134,15 +134,15 @@ public class IEnergyMatrixLow extends ElectricItemBase implements IEnergyAdd{
 	public float addDamageToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity, float damage) {
 		return damage;
 	}
-
+ 
 	@Override
-	public PotionEffect addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
-		return null;
+	public Boolean addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+		return false;
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
-		return null;
+	public Boolean addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+		return false;
 	}
 
 	@Override

@@ -13,9 +13,9 @@ public interface IEnergyAdd {
 	
 	public abstract float addDamageToEntity(ItemStack itemStack,EntityPlayer player, EntityLivingBase entity, float damage);
 	
-	public abstract PotionEffect addPotionEffectToEntity(ItemStack itemStack,EntityPlayer player, EntityLivingBase entity);
+	public abstract Boolean addPotionEffectToEntity(ItemStack itemStack,EntityPlayer player, EntityLivingBase entity);
 	
-	public abstract PotionEffect addPotionEffectToAllAround(ItemStack itemStack,EntityPlayer player, EntityLivingBase entity);
+	public abstract Boolean addPotionEffectToAllAround(ItemStack itemStack,EntityPlayer player, EntityLivingBase entity);
 	
 	public abstract float dealDamageToEntity(ItemStack itemStack,EntityPlayer player, float ammount);
 	

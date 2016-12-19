@@ -5,6 +5,16 @@ itemGroup.EnergyAdditionsCreative=EnergyAdditions Легендарное
 key.GuiWC.gui1=OpenEnergyInventory
 
 tile.EnergyCharger.name=Энергетический зарядник
+tile.AdvancedEnergyCharger.name=Продвинутый энергетический зарядник
+tile.EnergyOre.name=Энергетическая руда
+tile.BlockEnergyOre.name=Энергетический блок
+tile.BlockLight.name=Блок света
+
+item.EnergyNugget.name=Энергетический самородок
+item.EnergyRod.name=Энергетический стержень
+item.EnergyIngot.name=Энергетический слиток
+item.EnergyPlate.name=Энергетическая пластина
+item.EnergyDust.name=Энергетическая пыль
 
 item.EnergyArmorHelmet.name=Энергетический шлем
 item.EnergyArmorChestPlate.name=Энергетический нагрудник
@@ -56,7 +66,7 @@ item.EnergyStimulatorStr1.name=Стимулятор силы
 item.EnergyStimulatorStr2.name=Стимулятор силы
 item.EnergyStimulatorStr3.name=Стимулятор силы
 item.EnergyStimulatorExtractReg.name=Экстракт стимулятора регенерации
-item.EnergyStimulatorCoreReg.name=Ядро стимулятоа регенерации
+item.EnergyStimulatorCoreReg.name=Ядро стимулятора регенерации
 item.EnergyStimulatorReg1.name=Стимулятор регенерации
 item.EnergyStimulatorReg2.name=Стимулятор регенерации
 item.EnergyStimulatorReg3.name=Стимулятор регенерации
@@ -75,6 +85,8 @@ item.EnergyBar.name=Энергетический батончик
 item.EnergyMatrix.name=Энергетическая матрица
 item.EnergyMatrixStandart.name=Энергетическая матрица
 item.EnergyMatrixUltra.name=Энергетическая матрица
+item.EnergyPlanter.name=Энергетический садовник
+item.EnergyBinder.name=Энергетический связыватель
 
 item.EnergyUpdaterFallDamage3.name=Энергетический модификатор
 item.EnergyUpdaterRemovePoison.name=Энергетический модификатор
@@ -108,6 +120,8 @@ item.EnergyUpdaterAddStrength2.name=Энергетический модифик�
 item.EnergyUpdaterAddStrength3.name=Энергетический модификатор
 item.EnergyUpdaterAddWither.name=Энергетический модификатор
 item.EnergyUpdaterLavaFreezing.name=Энергетический модификатор
+item.EnergyUpdaterLight.name=Энергетический модификатор
+item.EnergyUpdaterAntiRadiation.name=Энергетический модификатор
 
 creative.Gandiva.name=Гандива
 creative.SuicideSquad.name=Посох самоубийц
@@ -205,6 +219,31 @@ tag.items.shield.damageblock.yes=Да
 tag.items.shield.damageblock.no=Нет
 tag.items.shield.consumed=Поглощено 
 tag.items.food.tooltip=Возобновляет еды: 
+tag.items.EnergyPlanter.tooltip=Эффект костной муки
+tag.items.charger.output=Выход: сменный 
+tag.items.charger1.capacity=Ёмкость: 40М EU 
+tag.items.charger2.capacity=Ёмкость: 400М EU 
+tag.items.charger.energy=Энергия: 
+
+tag.energybinder.message1=Свободные слоты: 
+tag.energybinder.message2=Свободные слоты: Нету
+tag.energybinder.message3=Слот 
+tag.energybinder.message4= с координатами 
+tag.energybinder.tooltip1=Позиция: 
+tag.energybinder.tooltip2=Инфо режим: 
+tag.energybinder.tooltip3=Нажмите Alt + ПКМ для смены режима
+
+
+tag.items.advcharger.tooltip4=Спасибо VtoroyNosok за эту идею!
+
+gui.advcharger.name=Продвинутый Энергетический Зарядник
+gui.charger.name=Энергетический Зарядник
+gui.advcharger.chargeslot.name=Зарядка
+gui.charger.output=Выход(EU/t)
+
+gui.advcharger.tooltip1=Может заряжать предметы вокруг? 0 - Нет; 1 - Да(512EU/t); 2 - Да(2048EU/t) 3 - Да(8192EU/t)
+gui.advcharger.tooltip2=Режим: 
+gui.advcharger.tooltip3=Режим
 
 tag.updaters.type=Тип: 
 tag.updaters.requires=Необходимо: 
@@ -364,15 +403,26 @@ tag.updaters.EnergyUpdaterAddStrength3.gettype=Ультра
 tag.updaters.EnergyUpdaterAddStrength3.getmatrix=Ультра матрица
 tag.updaters.EnergyUpdaterAddStrength3.geteffect=20% шанс получить силу 5 после автоатаки на 1 секунду(50000EU)
 
-tag.updaters.EnergyUpdaterAddWither.getupdater=Боевой
+tag.updaters.EnergyUpdaterAddWither.getupdater=Защитный
 tag.updaters.EnergyUpdaterAddWither.gettype=Ультра
 tag.updaters.EnergyUpdaterAddWither.getmatrix=Ультра матрица
-tag.updaters.EnergyUpdaterAddWither.geteffect=20% шанс наложить на врага эффект усталости после автоатаки(50000EU)
+tag.updaters.EnergyUpdaterAddWither.geteffect=Снимает с игрока эффект иссушения(50000EU)
 
 tag.updaters.EnergyUpdaterLavaFreezing.getupdater=Вспомагательный
 tag.updaters.EnergyUpdaterLavaFreezing.gettype=Ультра
 tag.updaters.EnergyUpdaterLavaFreezing.getmatrix=Ультра матрица
 tag.updaters.EnergyUpdaterLavaFreezing.geteffect=Превращает лаву под игроком на обсидиан(500EU)
+
+tag.updaters.EnergyUpdaterLight.getupdater=Вспомагательный
+tag.updaters.EnergyUpdaterLight.gettype=Стандартный
+tag.updaters.EnergyUpdaterLight.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterLight.geteffect=Заставляет игрока светится(400EU/секунда)
+
+tag.updaters.EnergyUpdaterAntiRadiation.getupdater=Защитный
+tag.updaters.EnergyUpdaterAntiRadiation.gettype=Стандартный
+tag.updaters.EnergyUpdaterAntiRadiation.getmatrix=Стандартная матрица +
+tag.updaters.EnergyUpdaterAntiRadiation.geteffect=Защищает игрока от радиации(500EU/секунда)
+
 
 
 

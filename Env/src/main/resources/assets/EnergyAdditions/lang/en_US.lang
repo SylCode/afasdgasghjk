@@ -5,6 +5,16 @@ itemGroup.EnergyAdditionsCreative=EnergyAdditions Legendary
 key.GuiWC.gui1=OpenEnergyInventory
 
 tile.EnergyCharger.name=Energy Charger
+tile.AdvancedEnergyCharger.name=Advanced Energy Charger
+tile.EnergyOre.name=Energy Ore
+tile.BlockEnergyOre.name=Energy Block
+tile.BlockLight.name=Light Block
+
+item.EnergyNugget.name=Energy nugget
+item.EnergyRod.name=Energy rod
+item.EnergyIngot.name=Energy ingot
+item.EnergyPlate.name=Energy plate
+item.EnergyDust.name=Energy dust
 
 item.EnergyArmorHelmet.name=Energy Helmet
 item.EnergyArmorChestPlate.name=Energy ChestPlate
@@ -75,6 +85,8 @@ item.EnergyBar.name=Energy Bar
 item.EnergyMatrix.name=Energy Matrix
 item.EnergyMatrixStandart.name=Energy Matrix
 item.EnergyMatrixUltra.name=Energy Matrix
+item.EnergyPlanter.name=EnergyPlanter
+item.EnergyBinder.name=Energy Binder
 
 item.EnergyUpdaterFallDamage3.name=Energy Updater
 item.EnergyUpdaterRemovePoison.name=Energy Updater
@@ -108,6 +120,8 @@ item.EnergyUpdaterAddStrength2.name=Energy Updater
 item.EnergyUpdaterAddStrength3.name=Energy Updater
 item.EnergyUpdaterAddWither.name=Energy Updater
 item.EnergyUpdaterLavaFreezing.name=Energy Updater
+item.EnergyUpdaterLight.name=Energy Updater
+item.EnergyUpdaterAntiRadiation.name=Energy Updater
 
 creative.Gandiva.name=Gandiva
 creative.SuicideSquad.name=Suicide Squad Stuff
@@ -205,6 +219,31 @@ tag.items.shield.damageblock.yes=Yes
 tag.items.shield.damageblock.no=No
 tag.items.shield.consumed=Consumed: 
 tag.items.food.tooltip=Restores food: 
+tag.items.EnergyPlanter.tooltip=Bonemeal effect
+tag.items.charger.output=Out: unstable 
+tag.items.charger1.capacity=Capacity: 40M EU
+tag.items.charger2.capacity=Capacity: 400M EU
+tag.items.charger.energy=Energy: 
+
+tag.energybinder.message1=Free slots: 
+tag.energybinder.message2=Free slots: None
+tag.energybinder.message3=Slot 
+tag.energybinder.message4= with coordinates 
+tag.energybinder.tooltip1=Position: 
+tag.energybinder.tooltip2=Info Mode: 
+tag.energybinder.tooltip3=Press Alt + RMB to change mode
+
+
+tag.items.advcharger.tooltip4=Thanks VtoroyNosok for that idea!
+
+gui.advcharger.name=Advanced Energy Charger
+gui.charger.name=Energy Charger
+gui.advcharger.chargeslot.name=Charge
+gui.charger.output=Output(EU/t)
+
+gui.advcharger.tooltip1=Can charge items around? 0 - No; 1 - yes(512EU/t); 2 - yes(2048EU/t) 3 - yes(8192EU/t)
+gui.advcharger.tooltip2=Voltage mode: 
+gui.advcharger.tooltip3=Mode
 
 tag.updaters.type=Type: 
 tag.updaters.requires=Requires: 
@@ -364,15 +403,25 @@ tag.updaters.EnergyUpdaterAddStrength3.gettype=Ultra
 tag.updaters.EnergyUpdaterAddStrength3.getmatrix=Ultra matrix
 tag.updaters.EnergyUpdaterAddStrength3.geteffect=20% charce to get strength 5 on hit(50000EU)
 
-tag.updaters.EnergyUpdaterAddWither.getupdater=Combat
+tag.updaters.EnergyUpdaterAddWither.getupdater=Defence
 tag.updaters.EnergyUpdaterAddWither.gettype=Ultra
 tag.updaters.EnergyUpdaterAddWither.getmatrix=Ultra matrix
-tag.updaters.EnergyUpdaterAddWither.geteffect=20% chance to slowdown enemy on hit(50000EU)
+tag.updaters.EnergyUpdaterAddWither.geteffect=Removes wither effect(50000EU)
 
 tag.updaters.EnergyUpdaterLavaFreezing.getupdater=Utility
 tag.updaters.EnergyUpdaterLavaFreezing.gettype=Ultra
 tag.updaters.EnergyUpdaterLavaFreezing.getmatrix=Ultra matrix
 tag.updaters.EnergyUpdaterLavaFreezing.geteffect=Turns lava under a player into obsidian(500EU)
+
+tag.updaters.EnergyUpdaterLight.getupdater=Utility
+tag.updaters.EnergyUpdaterLight.gettype=Standart
+tag.updaters.EnergyUpdaterLight.getmatrix=Standart Matrix +
+tag.updaters.EnergyUpdaterLight.geteffect=Makes player shiny(400EU/second)
+
+tag.updaters.EnergyUpdaterAntiRadiation.getupdater=Defence
+tag.updaters.EnergyUpdaterAntiRadiation.gettype=Standart
+tag.updaters.EnergyUpdaterAntiRadiation.getmatrix=Standart Matrix +
+tag.updaters.EnergyUpdaterAntiRadiation.geteffect=Removes radiation effect(500EU/second)
 
 
 

@@ -44,7 +44,11 @@ public class UpdatersList {
 	public static Item EnergyUpdaterAddStrength2;
 	public static Item EnergyUpdaterAddStrength3;
 	public static Item EnergyUpdaterAddWither;
-	public static Item EnergyUpdaterLavaFreezing;
+	public static Item EnergyUpdaterLavaFreezing;	
+	public static Item EnergyUpdaterAntiRadiation;
+	public static Item EnergyUpdaterLight;
+
+	
 	
 	public static void updatersList(){
 		
@@ -142,6 +146,12 @@ public class UpdatersList {
 	    
 	    EnergyUpdaterAddWither = new IEnergyUpdaterAddWither().setUnlocalizedName("EnergyUpdaterAddWither");
 	    GameRegistry.registerItem(EnergyUpdaterAddWither, "EnergyUpdaterAddWither");
+	    
+	    EnergyUpdaterLight = new IEnergyUpdaterLight().setUnlocalizedName("EnergyUpdaterLight");
+	    GameRegistry.registerItem(EnergyUpdaterLight, "EnergyUpdaterLight");
+	    
+	    EnergyUpdaterAntiRadiation = new IEnergyUpdaterAntiRadiation().setUnlocalizedName("EnergyUpdaterAntiRadiation");
+	    GameRegistry.registerItem(EnergyUpdaterAntiRadiation, "EnergyUpdaterAntiRadiation");
 	    
 	    EnergyUpdaterLavaFreezing = new IEnergyUpdaterLavaFreezing().setUnlocalizedName("EnergyUpdaterLavaFreezing");
 	    GameRegistry.registerItem(EnergyUpdaterLavaFreezing, "EnergyUpdaterLavaFreezing");

@@ -1,6 +1,7 @@
 package com.thunder.EnergyAdditions;
 
 import com.thunder.Armor.ArmorList;
+import com.thunder.Blocks.AdvancedEnergyChargerTileEntity;
 import com.thunder.Blocks.BlockList;
 import com.thunder.Blocks.EnergyChargerTileEntity;
 import com.thunder.Creative.AgonyPotion;
@@ -8,6 +9,7 @@ import com.thunder.Creative.CreativeItemList;
 import com.thunder.Creative.CreativePotionList;
 import com.thunder.Creative.GundiveBowArrow;
 import com.thunder.Creative.GundiveBowArrowRenderer;
+import com.thunder.Generation.EnergyOreGenerator;
 import com.thunder.Items.ItemList;
 import com.thunder.Recipes.RecipeList;
 import com.thunder.Updaters.UpdatersList;
@@ -27,6 +29,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.potion.Potion;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.util.EnumHelper;
@@ -47,6 +50,8 @@ public class EnergyAdditionsCore {
 	
 	private static int modGuiIndex = 0;
 	public static final int GUI_CUSTOM_INV = modGuiIndex++;
+	public static final int GUI_ADC = modGuiIndex++;
+	public static final int GUI_AT = modGuiIndex++;
 	
 	public static final EventHandler eventListener = new EventHandler();
 	
@@ -55,7 +60,7 @@ public class EnergyAdditionsCore {
 	public static ArmorMaterial AgilityArmorM = EnumHelper.addArmorMaterial("AgilityArmorM", 450, new int[] {3, 8, 4, 6}, 8);
 	public static ArmorMaterial CreativeArmorM = EnumHelper.addArmorMaterial("CreativeArmorM", 300, new int[] {3, 8, 4, 6}, 8);
 	
-	
+
 	  @Mod.EventHandler
 	  public void preInit(FMLPreInitializationEvent event)
 	  {
@@ -64,6 +69,7 @@ public class EnergyAdditionsCore {
 		Config.load();
 		
 		GameRegistry.registerTileEntity(EnergyChargerTileEntity.class, "EnergyCharger");
+		GameRegistry.registerTileEntity(AdvancedEnergyChargerTileEntity.class, "AdvancedEnergyCharger");
 
 	    CreativePotionList.potionReflection();
 	    CreativePotionList.init();
@@ -72,6 +78,12 @@ public class EnergyAdditionsCore {
 		CreativeItemList.items();
 		ArmorList.init();
 		UpdatersList.updatersList();
+		
+		OreDictRegistry.registerOres();
+		
+		GameRegistry.registerWorldGenerator(new EnergyOreGenerator(), 0);
+		GameRegistry.registerFuelHandler(new FuelHandler());
+		
 	    proxy.preInit();
 	    
 	    PacketDispatcher.preInit();
@@ -87,9 +99,7 @@ public class EnergyAdditionsCore {
 		EntityRegistry.registerGlobalEntityID(GundiveBowArrow.class, "GundiveBowArrow", EntityRegistry.findGlobalUniqueEntityId());
 		EntityRegistry.registerModEntity(GundiveBowArrow.class, "GundiveBowArrow", 1, this, 64, 20, true);//10
 
-		
 		CChestGenHooks.Remove();
-		
 	    
 	    proxy.init();
 	    NetworkRegistry.INSTANCE.registerGuiHandler(this, proxy);

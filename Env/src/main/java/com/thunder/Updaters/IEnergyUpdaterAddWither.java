@@ -30,11 +30,12 @@ public class IEnergyUpdaterAddWither extends IEnergyUpdater implements IEnergyAd
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public void onItemInventoryTick(ItemStack itemstack, World world, EntityLivingBase entity) {
 		
-		if (player != null) {
+		if (entity != null && entity instanceof EntityPlayer) {
+			EntityPlayer player = (EntityPlayer) entity;
 			InventoryEnergyPlayer inv = ExtendedInventory.get(player).inventory;
-
+			 
 			ItemStack matrix = inv.getStackInSlot(4);
 			int counter = 0;
 			if(matrix != null && (matrix.getItem().equals(UpdatersList.EnergyMatrixUltra)) && hasFullSet(player)){
@@ -48,16 +49,16 @@ public class IEnergyUpdaterAddWither extends IEnergyUpdater implements IEnergyAd
 				 }
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 50000.0D) && counter == 1){
-				 Random r = new Random();
-				 int random = r.nextInt(99);
-				 	if(random <= 30 && random >= 10){
-				 		ElectricItem.manager.discharge(matrix, 50000.0D, 4, true, false, false);
-				 		return new PotionEffect(Potion.digSlowdown.id, 20*4, 2);
-				 	}
+			 
+					 	 if(player.isPotionActive(Potion.wither.id)){
+					 	 
+					 		 player.removePotionEffect(Potion.wither.id);
+					 		 ElectricItem.manager.discharge(matrix, 50000.0D, 4, true, false, false);					 
+					 	 }
 				 }
 			}
 		}
-		return null;
+
 	}
 	
 	@Override

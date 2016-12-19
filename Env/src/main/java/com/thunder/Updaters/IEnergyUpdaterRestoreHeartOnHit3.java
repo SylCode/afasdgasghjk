@@ -23,6 +23,8 @@ import net.minecraft.world.World;
 
 public class IEnergyUpdaterRestoreHeartOnHit3 extends IEnergyUpdater implements IEnergyAdd {
 	
+	Random r = new Random();
+	
 	IEnergyUpdaterRestoreHeartOnHit3(){
 		super();
 		
@@ -48,7 +50,7 @@ public class IEnergyUpdaterRestoreHeartOnHit3 extends IEnergyUpdater implements 
 				 }
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 200000.0D) && counter == 1){
-				 Random r = new Random();
+
 				 int random = r.nextInt(99);
 				 if(random <= 30 && random >= 10){
 				 float h = player.getHealth() + 8.0F;

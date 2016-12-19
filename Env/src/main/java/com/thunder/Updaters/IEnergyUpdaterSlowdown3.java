@@ -28,7 +28,7 @@ public class IEnergyUpdaterSlowdown3 extends IEnergyUpdater implements IEnergyAd
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public Boolean addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
 		
 		if (player != null) {
 			InventoryEnergyPlayer inv = ExtendedInventory.get(player).inventory;
@@ -47,11 +47,11 @@ public class IEnergyUpdaterSlowdown3 extends IEnergyUpdater implements IEnergyAd
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 100000.0D) && counter == 1){
 				 ElectricItem.manager.discharge(matrix, 100000.0D, 4, true, false, false);
-				 return new PotionEffect(Potion.moveSlowdown.id, 20*4, 11);
+				 return true;
 				 }
 			}
 		}
-		return null;
+		return false;
 	}
 	
 	@Override

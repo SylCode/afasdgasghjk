@@ -65,7 +65,36 @@ public class ItemList {
 	public static Item EnergyMicrox;
 	public static Item UltimateEnergyCrystal;
 	
+	public static Item EnergyIngot;
+	public static Item EnergyRod;
+	public static Item EnergyPlate;
+	public static Item EnergyNugget;
+	public static Item EnergyDust;
+	
+	public static Item EnergyBinder;
+	
 	public static void items(){
+		
+		//energy binder
+		
+		EnergyBinder = new IEnergyBinder().setUnlocalizedName("EnergyBinder");
+	    GameRegistry.registerItem(EnergyBinder, "EnergyBinder");
+		
+		//energy ingot, nugget, plate, rod
+		EnergyIngot = new IEnergyIngot().setUnlocalizedName("EnergyIngot");
+	    GameRegistry.registerItem(EnergyIngot, "EnergyIngot");
+	    
+	    EnergyDust = new IEnergyDust().setUnlocalizedName("EnergyDust");
+	    GameRegistry.registerItem(EnergyDust, "EnergyDust");
+	    
+	    EnergyRod = new IEnergyRod().setUnlocalizedName("EnergyRod");
+	    GameRegistry.registerItem(EnergyRod, "EnergyRod");
+	    
+	    EnergyPlate = new IEnergyPlate().setUnlocalizedName("EnergyPlate");
+	    GameRegistry.registerItem(EnergyPlate, "EnergyPlate");
+	    
+	    EnergyNugget = new IEnergyNugget().setUnlocalizedName("EnergyNugget");
+	    GameRegistry.registerItem(EnergyNugget, "EnergyNugget");
 	
 		//Circuits
 		DiamondInlaidCircuit = new IDiamondInlaidCircuit().setUnlocalizedName("DiamondInlaidCircuit");
@@ -208,6 +237,7 @@ public class ItemList {
 	    
 	    EnergyBar = new IEnergyBar().setUnlocalizedName("EnergyBar");
 	    GameRegistry.registerItem(EnergyBar, "EnergyBar");
+	    
 		
 	}
 

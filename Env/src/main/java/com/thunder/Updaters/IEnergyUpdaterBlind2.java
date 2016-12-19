@@ -28,7 +28,7 @@ public class IEnergyUpdaterBlind2 extends IEnergyUpdater implements IEnergyAdd {
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public Boolean addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
 		
 		if (player != null) {
 			InventoryEnergyPlayer inv = ExtendedInventory.get(player).inventory;
@@ -47,11 +47,11 @@ public class IEnergyUpdaterBlind2 extends IEnergyUpdater implements IEnergyAdd {
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 35000.0D) && counter == 1){
 				 ElectricItem.manager.discharge(matrix, 35000.0D, 4, true, false, false);
-				 return new PotionEffect(Potion.blindness.id, 20*2, 1);
+				 return true;
 				 }
 			}
 		}
-		return null;
+		return false;
 	}
 	
 	@Override

@@ -15,6 +15,7 @@ import com.thunder.Creative.CreativePotionList;
 import com.thunder.Creative.ISoulAmulet;
 import com.thunder.Creative.ISuicideSquadStuff;
 import com.thunder.Updaters.IEnergyUpdater;
+import com.thunder.Updaters.UpdatersList;
 import com.thunder.inventory.ExtendedInventory;
 import com.thunder.inventory.InventoryEnergyPlayer;
 import com.thunder.network.PacketDispatcher;
@@ -141,6 +142,7 @@ public class EventHandler {
 		
 	}
 	
+	
 	@SubscribeEvent
 	public void addAdditionsEvent(LivingHurtEvent event)
 	{
@@ -157,39 +159,44 @@ public class EventHandler {
 				
 				for(int a = 0; a < inv.getSizeInventory(); a++){
 					ItemStack stack = inv.getStackInSlot(a);
-					if (stack != null && stack.getItem() instanceof IEnergyAdd) {		//added new		
-					 IEnergyAdd item = (IEnergyAdd) stack.getItem();
-					 //adds									 
-				//	 event.ammount = item.addDamageToEntity(stack, playerUsing, entity, event.ammount);//add damage to entity								
-					 	item.addDamageToEntity(stack, playerUsing, entity, event.ammount);
+						if (stack != null && stack.getItem() instanceof IEnergyAdd) {
+							//added new		
+							IEnergyAdd item = (IEnergyAdd) stack.getItem();
+							//adds									 
+							//	 event.ammount = item.addDamageToEntity(stack, playerUsing, entity, event.ammount);//add damage to entity								
+							item.addDamageToEntity(stack, playerUsing, entity, event.ammount);
 					 
-							if(item.addPotionEffectToEntity(stack, playerUsing, entity) != null){//add effect to entity
-								entity.addPotionEffect(item.addPotionEffectToEntity(stack, playerUsing, entity));
+							if(item.addPotionEffectToEntity(stack, playerUsing, entity)){//add effect to entity			
+									if(item.getClass().equals(UpdatersList.EnergyUpdaterSlowdown3.getClass()))
+										entity.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 20*2, 11));
+									
+							}else 
+							if(item.addPotionEffectToAllAround(stack, playerUsing, entity)){//add effect to all around
+								List list = playerUsing.worldObj.getEntitiesWithinAABB(Entity.class, AxisAlignedBB.getBoundingBox((float) (playerUsing.posX -6), (float) (playerUsing.posY - 6), (float) (playerUsing.posZ - 6), (float) (playerUsing.posX + 6), (float) (playerUsing.posY + 6), (float) (playerUsing.posZ + 6)));
+								for(int i = 0; i < list.size(); i++)
+								{
+									Entity e = (Entity) list.get(i);
+									if(e != null && e != playerUsing && e instanceof EntityLivingBase){
+										EntityLivingBase entityTarget = (EntityLivingBase) e;
+										if(item.getClass().equals(UpdatersList.EnergyUpdaterPoisonAllAround.getClass()))
+											entityTarget.addPotionEffect(new PotionEffect(Potion.poison.id, 20*4, 2));
+										else if(item.getClass().equals(UpdatersList.EnergyUpdaterBlind2.getClass()))
+											entityTarget.addPotionEffect(new PotionEffect(Potion.blindness.id, 20*4, 4));				            	  
+									}
 								}
-									if(item.addPotionEffectToAllAround(stack, playerUsing, entity) != null){//add effect to all around
-										List list = playerUsing.worldObj.getEntitiesWithinAABB(Entity.class, AxisAlignedBB.getBoundingBox((float) (playerUsing.posX -6), (float) (playerUsing.posY - 6), (float) (playerUsing.posZ - 6), (float) (playerUsing.posX + 6), (float) (playerUsing.posY + 6), (float) (playerUsing.posZ + 6)));
-											for(int i = 0; i < list.size(); i++)
-												{
-												Entity e = (Entity) list.get(i);
-														if(e != null && e != playerUsing && e instanceof EntityLivingBase){
-															entity = (EntityLivingBase) e;
-															entity.addPotionEffect(item.addPotionEffectToAllAround(stack, playerUsing, entity));
-					            	  
-															}
-													}
-										}
 							}
-					//end of adds
 						}
+							//end of adds
 					}
+				}
 			//potion
 			if(player.getActivePotionEffect(CreativePotionList.Vamp) != null && entity.getActivePotionEffect(CreativePotionList.Vamp) == null)
 			{
 				entity.addPotionEffect(new PotionEffect(CreativePotionList.Vamp.id, 20*1200, 3));
 			}
 			
-				}
-			} 
+		}
+	} 
 	
 	@SubscribeEvent
 	public void soulAmuletEvent(LivingAttackEvent event)
@@ -468,6 +475,7 @@ public class EventHandler {
 			}
 		}
 	}
+	
 	
 	private void effectPlayer(EntityLivingBase entity, Potion potion, int amplifier) {
 		 if (entity.getActivePotionEffect(potion) == null || entity.getActivePotionEffect(potion).getDuration() <= 1)

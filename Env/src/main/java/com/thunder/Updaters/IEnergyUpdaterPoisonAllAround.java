@@ -1,5 +1,7 @@
 package com.thunder.Updaters;
 
+import java.util.List;
+
 import com.thunder.Api.IEnergyAdd;
 import com.thunder.Armor.IEnergyArmor;
 import com.thunder.Armor.IModArmor;
@@ -8,6 +10,7 @@ import com.thunder.inventory.ExtendedInventory;
 import com.thunder.inventory.InventoryEnergyPlayer;
 
 import ic2.api.item.ElectricItem;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -15,6 +18,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
@@ -28,7 +32,7 @@ public class IEnergyUpdaterPoisonAllAround extends IEnergyUpdater implements IEn
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public Boolean addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
 		
 		if (player != null) {
 			InventoryEnergyPlayer inv = ExtendedInventory.get(player).inventory;
@@ -47,12 +51,13 @@ public class IEnergyUpdaterPoisonAllAround extends IEnergyUpdater implements IEn
 				
 				 if(nbtData.getBoolean("active") && ElectricItem.manager.canUse(matrix, 50000.0D) && counter == 1){
 				 ElectricItem.manager.discharge(matrix, 50000.0D, 4, true, false, false);
-				 return new PotionEffect(Potion.poison.id, 20*4, 1);
+				 return true;
 				 }
 			}
 		}
-		return null;
+		return false;
 	}
+
 	
 	@Override
 	protected String getUpdater(){	

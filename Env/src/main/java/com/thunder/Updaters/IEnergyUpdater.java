@@ -114,15 +114,15 @@ public class IEnergyUpdater extends Item implements IEnergyAdd {
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public Boolean addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
 		
-		return null;
+		return false;
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+	public Boolean addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
 		
-		return null;
+		return false;
 	}
 
 	@Override

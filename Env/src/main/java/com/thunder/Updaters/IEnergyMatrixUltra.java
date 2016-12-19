@@ -136,13 +136,13 @@ public class IEnergyMatrixUltra extends ElectricItemBase implements IEnergyAdd{
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
-		return null;
+	public Boolean addPotionEffectToEntity(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+		return false;
 	}
 
 	@Override
-	public PotionEffect addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
-		return null;
+	public Boolean addPotionEffectToAllAround(ItemStack itemStack, EntityPlayer player, EntityLivingBase entity) {
+		return false;
 	}
 
 	@Override
